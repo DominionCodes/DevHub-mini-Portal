@@ -1,5 +1,6 @@
  import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import './UserDetail.css';
 
 function UserDetail() {
   const { id } = useParams();
@@ -40,11 +41,11 @@ function UserDetail() {
   }
 
   return (
-    <div style={{ padding: '20px', maxWidth: '600px', margin: '0 auto' }}>
-      <button onClick={() => navigate('/users')} style={{ marginBottom: '20px' }}>
+    <div className='details_container'>
+      <button className='back-btn' onClick={() => navigate('/users')}>
         ← Back to Users
       </button>
-      <div style={{ border: '1px solid #ddd', padding: '20px', borderRadius: '8px' }}>
+      <div className='userdetails'>
         <h1>{user.name}</h1>
         <p><strong>Username:</strong> {user.username}</p>
         <p><strong>Email:</strong> {user.email}</p>

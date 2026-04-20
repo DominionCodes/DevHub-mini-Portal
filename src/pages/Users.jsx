@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import UserCard from '../components/UserCard'
+import './Users.css'
 
 export default function Users() {
   const [users, setUsers] = useState([])
@@ -32,11 +33,13 @@ export default function Users() {
   if (error) return <div>{error}</div>
 
   return (
-    <div>
+    <div className="users-page">
       <h2>All Users</h2>
-      {users.map((user) => (
-        <UserCard key={user.id} user={user} />
-      ))}
+      <div className="users-grid">
+        {users.map((user) => (
+          <UserCard key={user.id} user={user} />
+        ))}
+      </div>
     </div>
   )
 }
