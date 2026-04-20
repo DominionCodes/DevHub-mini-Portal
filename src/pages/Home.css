@@ -9,9 +9,40 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 88vh;
     gap: 20px;
     padding: 10px 0;
     background-color: #cd9292;    
-    
+}
+.wel_message {
+    color: ;
+    font-family: ;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.ms_note {
+    font-size: 1.1rem;
+    font-family: ;
+    text-align: center;
+    padding-bottom: 10px;
+    color: ;
+}
+.log_click{
+    padding-top: 6px;
+}
+
+.Log_s button {
+    color: #cd9292;
+    background-color: black;
+    padding: 20px 26px;
+    border: 0px;
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+    /* border-radius: 6px; */
+    justify-content: center;
+    transition: all 0.3s;
+    cursor: pointer;
 }
