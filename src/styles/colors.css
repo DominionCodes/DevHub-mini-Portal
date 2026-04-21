@@ -1,0 +1,35 @@
+/* Root design tokens: digital blue scale and helpers */
+:root {
+  /* Digital Blue scale */
+  --color-digital-blue-50:  #e5f0ff;
+  --color-digital-blue-100: #cce0ff;
+  --color-digital-blue-200: #99c2ff;
+  --color-digital-blue-300: #66a3ff;
+  --color-digital-blue-400: #3385ff;
+  --color-digital-blue-500: #0066ff;
+  --color-digital-blue-600: #0052cc;
+  --color-digital-blue-700: #003d99;
+  --color-digital-blue-800: #002966;
+  --color-digital-blue-900: #001433;
+  --color-digital-blue-950: #000e24;
+
+  /* Derived tokens */
+  --brand: var(--color-digital-blue-500);
+  --brand-600: var(--color-digital-blue-600);
+  --brand-700: var(--color-digital-blue-700);
+  --bg-surface: #ffffff;
+  --bg-muted: var(--color-digital-blue-50);
+  --text-primary: var(--color-digital-blue-900);
+  --text-muted: var(--color-digital-blue-700);
+  --border: #e6eefc; /* light border tuned to scale */
+
+  /* Transparent helpers (based on key blues) */
+  --brand-10: rgba(0,102,255,0.10);
+  --brand-05: rgba(0,102,255,0.05);
+  --brand-18: rgba(0,102,255,0.18);
+  --shadow-05: rgba(2,6,23,0.05);
+}
+
+/* Utility classes */
+.bg-brand { background-color: var(--brand); color: var(--color-digital-blue-50); }
+.text-brand { color: var(--brand); }

@@ -12,11 +12,11 @@
     height: 88vh;
     gap: 20px;
     padding: 10px 0;
-    background-color: #cd9292;    
+    background-color: var(--bg-muted);
 }
 .wel_message {
-    color: ;
-    font-family: ;
+    color: var(--brand-700);
+    font-family: inherit;
     font-size: 2rem;
     font-weight: 500;
     text-align: center;
@@ -25,22 +25,22 @@
 }
 .ms_note {
     font-size: 1.1rem;
-    font-family: ;
+    font-family: inherit;
     text-align: center;
     padding-bottom: 10px;
-    color: ;
+    color: var(--text-muted);
 }
 .log_click{
     padding-top: 6px;
 }
 
 .Log_s button {
-    color: #cd9292;
-    background-color: black;
+    color: var(--color-digital-blue-50);
+    background-color: var(--brand-600);
     padding: 20px 26px;
     border: 0px;
     font-size: 11px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--font-body);
     /* border-radius: 6px; */
     justify-content: center;
     transition: all 0.3s;

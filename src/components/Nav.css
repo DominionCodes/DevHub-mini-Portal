@@ -1,9 +1,3 @@
-:root{
-    --bg:#1f1130;
-    --accent:#7c3aed;
-    --muted:#cfc7df;
-}
-
 *{
     box-sizing:border-box;
     margin: 0%;
@@ -15,9 +9,9 @@
     align-items: center;
     gap: 12px;
     padding: 12px 20px;
-    /* background: var(--bg); */
-    /* color: var(--muted); */
-    /* box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2); */
+    background: var(--bg-muted);
+    color: var(--text-muted);
+    box-shadow: 0 1px 6px var(--shadow-05);
 }
 .nav-center :link {
     text-decoration: none;
@@ -34,11 +28,11 @@
 }
 
 .brand {
-    /* color: var(--muted); */
+    color: var(--text-primary);
     text-decoration: none;
     font-weight: 700;
     font-size: 1.1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-headline);
 }
 
 .nav-links {
@@ -54,5 +48,5 @@
 }
 
 .nav-link:hover {
-    background: rgba(255, 255, 255, 0.03)
+    background: var(--brand-05);
 }
