@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 88vh;
+    height: 85vh;
     gap: 20px;
     padding: 10px 0;
     background-color: var(--bg-muted);
@@ -32,6 +32,16 @@
 }
 .log_click{
     padding-top: 6px;
+}
+
+.log_click .count {
+    color: var(--brand);
+    font-weight: 700;
+    font-size: 1.15rem;
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: var(--brand-05);
 }
 
 .Log_s button {

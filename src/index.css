@@ -20,6 +20,7 @@ body {
 	color: var(--text-primary);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	padding-bottom: 72px; /* leave space for the fixed footer */
 }
 
 /* Headline / subhead defaults */

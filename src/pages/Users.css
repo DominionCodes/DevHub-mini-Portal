@@ -8,7 +8,7 @@
 
 .users-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 12px;
     margin-top: 12px;
 }
@@ -17,13 +17,13 @@
     justify-content: center;
     text-align: center;
     border: 1px solid var(--border);
-    padding: 12px;
+    padding: 18px;
     border-radius: 6px;
     background: var(--bg-surface);
     box-shadow: 0 1px 2px var(--shadow-05);
 }
 .user-avatar {
-    /* flex: 0 0 50rem; */
+    margin: 10px 0px 0px 10px ;
     width: 56px;
     height: 56px;
     border-radius: 50%;
@@ -43,7 +43,7 @@
 }
 
 .user-name {
-    margin: 0 0 8px 0;
+    margin: 12px 0 8px 0;
     font-size: 1rem;
     color: var(--text-primary);
     overflow: hidden;
@@ -67,6 +67,7 @@
     border: none;
     padding: 8px 12px;
     border-radius: 8px;
+    margin-bottom: 10px;
     cursor: pointer;
     transition: transform .2s ease, box-shadow .2s ease, opacity .2s ease;
 }
