@@ -5,8 +5,8 @@ The Portal allows users to browse developer profiles, view detailed information,
 
 # Problem Statement
 This project demonstrates how a real-world multi-page app works using:
-  Dynamic routing
-  API data fetching
+- Dynamic routing
+- API data fetching
   State management
   Component architecture
 
